@@ -69,6 +69,9 @@ instructions (use all of the default options):
 
     $ php app/console generate:bundle --namespace=Acme/HelloBundle --format=yml
 
+The generator script will ask you several questions about your new bundle. For now
+you can accept the default options by pressing return after each question. 
+
 Behind the scenes, a directory is created for the bundle at ``src/Acme/HelloBundle``.
 A line is also automatically added to the ``app/AppKernel.php`` file so that
 the bundle is registered with the kernel::
